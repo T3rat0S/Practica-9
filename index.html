@@ -1,1 +1,191 @@
-# Practica-9
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Education</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="logo">NOVA</div>
+
+        <ul>
+            <li><a href="#about">О центре</a></li>
+            <li><a href="#courses">Курсы</a></li>
+            <li><a href="#teachers">Преподаватели</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero">
+        <div class="hero-content">
+            <span>Education Platform</span>
+            <h1>Современный учебный центр</h1>
+            <p>
+                Обучение современным профессиям, цифровым навыкам
+                и технологиям в стильной образовательной среде.
+            </p>
+
+            <a href="#courses" class="hero-btn">Смотреть курсы</a>
+        </div>
+    </div>
+</header>
+
+<section class="about" id="about">
+    <div class="section-title">
+        <h2>О нашем центре</h2>
+        <p>Современное образование и практические навыки.</p>
+    </div>
+
+    <div class="about-grid">
+
+        <div class="about-card">
+            <h3>Практическое обучение</h3>
+            <p>
+                Реальные проекты и современные инструменты для подготовки специалистов.
+            </p>
+        </div>
+
+        <div class="about-card">
+            <h3>Опытные преподаватели</h3>
+            <p>
+                Наставники с опытом работы в IT, дизайне и цифровых профессиях.
+            </p>
+        </div>
+
+        <div class="about-card">
+            <h3>Современные аудитории</h3>
+            <p>
+                Комфортное пространство для обучения и совместной работы.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section class="courses" id="courses">
+    <div class="section-title">
+        <h2>Популярные курсы</h2>
+        <p>Основные направления обучения.</p>
+    </div>
+
+    <div class="courses-grid">
+
+        <div class="course-card">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop" alt="course">
+
+            <div class="course-content">
+                <h3>Frontend Development</h3>
+                <p>HTML, CSS и создание современных сайтов.</p>
+                <span>6 месяцев</span>
+            </div>
+        </div>
+
+        <div class="course-card">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop" alt="course">
+
+            <div class="course-content">
+                <h3>UI / UX Design</h3>
+                <p>Проектирование стильных и удобных интерфейсов.</p>
+                <span>4 месяца</span>
+            </div>
+        </div>
+
+        <div class="course-card">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop" alt="course">
+
+            <div class="course-content">
+                <h3>Digital Marketing</h3>
+                <p>Продвижение брендов и работа с рекламой.</p>
+                <span>5 месяцев</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="teachers" id="teachers">
+    <div class="section-title">
+        <h2>Преподаватели</h2>
+        <p>Команда опытных специалистов.</p>
+    </div>
+
+    <div class="teachers-grid">
+
+        <div class="teacher-card">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1200&auto=format&fit=crop" alt="teacher">
+            <h3>Alex Carter</h3>
+            <p>Frontend Developer</p>
+        </div>
+
+        <div class="teacher-card">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1200&auto=format&fit=crop" alt="teacher">
+            <h3>Emma Wilson</h3>
+            <p>UI / UX Designer</p>
+        </div>
+
+        <div class="teacher-card">
+            <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1200&auto=format&fit=crop" alt="teacher">
+            <h3>Daniel Moore</h3>
+            <p>Marketing Specialist</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="table-section">
+    <div class="section-title">
+        <h2>Расписание занятий</h2>
+        <p>Ближайшие образовательные программы.</p>
+    </div>
+
+    <table>
+        <tr>
+            <th>Курс</th>
+            <th>Дата старта</th>
+            <th>Формат</th>
+        </tr>
+
+        <tr>
+            <td>Frontend Development</td>
+            <td>15 июня</td>
+            <td>Офлайн</td>
+        </tr>
+
+        <tr>
+            <td>UI / UX Design</td>
+            <td>22 июня</td>
+            <td>Онлайн</td>
+        </tr>
+
+        <tr>
+            <td>Digital Marketing</td>
+            <td>1 июля</td>
+            <td>Гибридный</td>
+        </tr>
+    </table>
+</section>
+
+<section class="contacts" id="contacts">
+    <div class="contact-box">
+        <h2>Записаться на курс</h2>
+
+        <form>
+            <input type="text" placeholder="Ваше имя">
+            <input type="email" placeholder="Email">
+            <input type="text" placeholder="Интересующий курс">
+            <textarea placeholder="Комментарий"></textarea>
+            <button type="submit">Отправить заявку</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Nova Education | Learning Center</p>
+</footer>
+
+</body>
+</html>
